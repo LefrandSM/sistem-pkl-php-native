@@ -1,0 +1,64 @@
+body {
+	background-color: #aaa;
+}
+.main {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #ddd;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+
+/*navbar*/
+
+.navbar ul li {
+	padding-right: 20px;
+}
+
+#login {
+	background-color: #333;
+	border-radius: 10px;
+}
+
+/*akhir navbar*/
+
+/* footer */
+
+footer {
+    text-align: center;
+    background: #000;
+    color: #eee;
+    padding-top: 40px;
+    height: 100px;
+}
+footer i{
+    color: salmon;
+}
+
+/* akhir footer */
+
+
+
+
+
+/* responsive tablet */
+
+@media only screen and (max-width: 990px) {
+	.main {
+		width: 100%;
+	}
+	#login {
+		background-color: #007bff;
+	}
+}
+
+
+
+
+/* responsive hp */
+
+@media only screen and (max-width: 576px) {
+	.data {
+		font-size: 15px;
+	}
+}

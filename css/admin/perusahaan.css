@@ -1,0 +1,64 @@
+body {
+	background-color: #eee;
+}
+
+
+/*navbar*/
+.navbar {
+	width: 20%;
+	background-color: #333;
+	position: fixed;
+	padding-bottom: 1000px;
+}/*judul*/
+.judul {
+	margin-bottom: 40px;
+}
+/*tambah dan search*/
+.tambah-button {
+	display: flex;
+	margin-bottom: 20px;
+}
+/*isi*/
+.data {
+	width: 75%;
+	margin-left: 22%;
+}
+/*akhir isi*/
+/*footer*/
+
+footer {
+	padding: 5px 10px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+}
+footer i{
+    color: #2979ff;
+}
+
+@media only screen and (max-width: 990px) {
+    .main {
+        width: 100%;
+    }
+    .navbar {
+    	position: static;
+    	padding-bottom: 0;
+    	width: 100%;
+    }
+    .data {
+    	margin: 10px auto;
+    }
+    .data table {
+    	width: 100%;
+    }
+    #login {
+        background-color: #007bff;
+    }
+}
+@media only screen and (max-width: 720px) {
+	.navbar {
+		width: 100%;
+		position: static;
+		padding-bottom: 0;
+	}
+}

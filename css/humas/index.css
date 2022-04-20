@@ -1,0 +1,116 @@
+body {
+	background-color: #eee;
+}
+/*navbar*/
+.navbar {
+	width: 20%;
+	height: 100vh;
+	background-color: #333;
+}
+.navbar ul {
+	margin-top: -300px;
+}
+.navbar a{
+	padding: 20px;
+}
+.navbar hr {
+	border-color: white;
+}
+
+/*akhir navbar*/
+
+
+
+/*judul*/
+
+.judul h2 {
+	margin-left: 350px;
+	margin-top: 20px;
+}
+
+/*akhir judul*/
+
+/*form*/
+
+.form-inline {
+	padding-left: 25%;
+}
+.form-inline a {
+	margin-right: 45%;
+}
+
+/*akhir form*/
+
+/*table*/
+.table {
+	margin-left: 200px;
+	width: 1000px;
+	margin-top: 20px;
+}
+/*akhir table*/
+
+/*footer*/
+
+footer {
+	padding: 5px 10px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+}
+footer i{
+    color: #2979ff;
+}
+
+}
+.navbar ul {
+	margin-top: -300px;
+}
+.navbar a{
+	padding: 20px;
+}
+.navbar hr {
+	border-color: white;
+}
+
+/*akhir navbar*/
+
+
+/*judul*/
+
+.judul h2 {
+	margin-left: 350px;
+	margin-top: 20px;
+}
+
+/*akhir judul*/
+
+/*form*/
+
+.form-inline {
+	padding-left: 25%;
+}
+.form-inline a {
+	margin-right: 45%;
+}
+
+/*akhir form*/
+
+/*table*/
+.table {
+	margin-left: 200px;
+	width: 1000px;
+	margin-top: 20px;
+}
+/*akhir table*/
+
+/*footer*/
+
+footer {
+	padding: 5px 10px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+}
+footer i{
+    color: #2979ff;
+}

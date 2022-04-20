@@ -1,0 +1,90 @@
+body {
+	background-color: #aaa;
+}
+.main {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+
+/*navbar*/
+
+.navbar ul li {
+	padding-right: 20px;
+}
+
+#login {
+	background-color: #333;
+	border-radius: 10px;
+}
+.carousel img{
+    height: 85vh;
+}
+
+/* isi */
+
+.row {
+    padding: 60px;
+}
+.bagian-1 {
+    background-color: #007bff;
+    margin-top: -35px;
+    color: white;
+}
+.bagian-1 p{
+    text-indent: 30px;
+}
+.bagian-2 p{
+    text-indent: 30px;
+}
+.bagian-3 {
+    background-color: #007bff;
+    color: white;
+}
+.bagian-3 p{
+    text-indent: 30px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background: #000;
+    color: #eee;
+    padding-top: 40px;
+    height: 100px;
+}
+footer i{
+    color: salmon;
+}
+
+/* akhir footer */
+
+
+
+
+
+/* responsive tablet */
+
+@media only screen and (max-width: 990px) {
+    .main {
+        width: 100%;
+    }
+    #login {
+        background-color: #007bff;
+    }
+}
+
+
+
+
+/* responsive hp */
+
+@media only screen and (max-width: 576px) {
+    .data {
+        font-size: 15px;
+    }
+}
